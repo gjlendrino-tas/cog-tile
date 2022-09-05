@@ -1,0 +1,14 @@
+{
+  "name": "cog",
+  "dependencies": {
+    "ol": "6.15.1",
+    "proj4": "2.8.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  }
+}
